@@ -1,0 +1,105 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571735502952" stop="1571735503016">
+  <name>test01</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1571735502952" status="failed" stop="1571735502990">
+      <name>Test.test01</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test01.Test object at 0x0000000004184DA0&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
+    @allure.step(title="步骤")
+    def test01(self):
+        allure.attach("失恋了，怎么办","找链家")
+&gt;       assert 0
+E       assert 0
+
+scripts\test01.py:10: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="4696-MainThread"/>
+        <label name="host" value="PC201908031058"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571735502954" status="failed" stop="1571735502956">
+          <name>步骤</name>
+          <title>步骤</title>
+          <attachments>
+            <attachment source="c48f92a7-16b7-4709-8d2b-b2ad5e08cbcb-attachment.txt" title="失恋了，怎么办" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571735502996" status="passed" stop="1571735502998">
+      <name>Test.test02</name>
+      <attachments>
+        <attachment source="94af0cf9-6456-4f36-a3fc-2daebba24fe9-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="4696-MainThread"/>
+        <label name="host" value="PC201908031058"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1571735503000" status="passed" stop="1571735503003">
+      <name>Test.test03</name>
+      <attachments>
+        <attachment source="20c7e7c9-f9a5-41ae-86a6-5f15043ddee9-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4696-MainThread"/>
+        <label name="host" value="PC201908031058"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1571735503006" status="failed" stop="1571735503010">
+      <name>Test.test04</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test01.Test object at 0x00000000041BDA58&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.MINOR)
+    def test04(self):
+&gt;       assert 0
+E       assert 0
+
+scripts\test01.py:24: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="4696-MainThread"/>
+        <label name="host" value="PC201908031058"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1571735503013" status="passed" stop="1571735503016">
+      <name>Test.test05</name>
+      <attachments>
+        <attachment source="00586bc5-6d38-4c28-a4d7-4cc4d4394357-attachment.txt" title="Captured stdout call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="trivial"/>
+        <label name="thread" value="4696-MainThread"/>
+        <label name="host" value="PC201908031058"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
